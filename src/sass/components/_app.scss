@@ -1,0 +1,45 @@
+.input {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  padding: 5px 10px;
+}
+.input-wrapper {
+  display: inline-block;
+  margin: 0 auto;
+}
+.header {
+  text-align: center;
+}
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flag-img {
+  width: 380px;
+}
+.card-label {
+  margin-right: 50px;
+}
+
+div.warning-msg {
+  text-align: center;
+  padding: 15px 10px;
+  display: inline-block;
+  width: 300px;
+  height: 70px;
+  background: repeating-linear-gradient(
+    43deg,
+    rgba(245, 137, 166, 0.5),
+    rgba(245, 137, 166, 0.5) 17px,
+    rgba(230, 96, 96, 0.5) 17px,
+    rgba(230, 96, 96, 0.5) 25px
+  );
+
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.3;
+}
