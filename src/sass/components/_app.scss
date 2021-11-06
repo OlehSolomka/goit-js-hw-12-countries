@@ -2,20 +2,23 @@
   display: inline-block;
   margin-left: auto;
   margin-right: auto;
-  width: 40vw;
+  width: 20vw;
   padding: 5px 10px;
 }
 .input-wrapper {
+  text-align: center;
   display: inline-block;
-  margin: 0 auto;
+  margin: 20px auto;
+  margin-left: 40px;
 }
+
 .header {
   text-align: center;
 }
 .card-container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
 }
 .flag-img {
   width: 380px;
